@@ -26,7 +26,7 @@ var (
 	ProgressBar    *progressbar.ProgressBar = nil
 	LookupTable    *tablewriter.Table       = tablewriter.NewWriter(os.Stdout)
 	BannerTemplate string                   = `{{ .Title "mailintel" "" 2 }}
-{{ .AnsiColor.BrightWhite }}v2.3{{ .AnsiColor.Default }}
+{{ .AnsiColor.BrightWhite }}v1.0.2 made by Atnoni Kon{{ .AnsiColor.Default }}
 {{ .AnsiColor.BrightCyan }}https://github.com/OrbKonSec/{{ .AnsiColor.Default }}
 Now: {{ .Now "Monday, 2 Jan 2006" }}`
 )
