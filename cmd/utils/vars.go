@@ -25,9 +25,9 @@ var (
 	ConfigReturn   map[string]interface{}
 	ProgressBar    *progressbar.ProgressBar = nil
 	LookupTable    *tablewriter.Table       = tablewriter.NewWriter(os.Stdout)
-	BannerTemplate string                   = `{{ .Title "mosint" "" 2 }}
+	BannerTemplate string                   = `{{ .Title "mailintel" "" 2 }}
 {{ .AnsiColor.BrightWhite }}v2.3{{ .AnsiColor.Default }}
-{{ .AnsiColor.BrightCyan }}https://github.com/alpkeskin/{{ .AnsiColor.Default }}
+{{ .AnsiColor.BrightCyan }}https://github.com/OrbKonSec/{{ .AnsiColor.Default }}
 Now: {{ .Now "Monday, 2 Jan 2006" }}`
 )
 
